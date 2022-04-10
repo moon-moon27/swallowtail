@@ -3,6 +3,7 @@
 
 tooltip {
   background: colors.$surface-weakest;
+  color: colors.$black-strongest;
 
   > * {
     margin: config.$spacing-medium;

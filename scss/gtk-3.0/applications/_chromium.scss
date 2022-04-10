@@ -7,13 +7,13 @@
 window.background.chromium {
   // active tab and toolbar colors
   background: lighten(colors.$surface-weak, 2%);
-  color: colors.$white-strong;
+  color: colors.$black-strong;
 
   entry {
     // chromium manipulates this color, so it is impossible to set a specific one
-    // using black at least guarantees a light, monochrome color
+    // using white at least guarantees a light, monochrome color
     &:focus {
-      border-color: colors.$black-strongest;
+      border-color: colors.$white-strongest;
     }
   }
 
@@ -21,12 +21,12 @@ window.background.chromium {
   menu {
     background: colors.$surface-moderate;
     menuitem {
-      color: colors.$white-strong;
+      color: colors.$black-strong;
       &:hover {
-        background: colors.$white-weakest;
+        background: colors.$black-weakest;
       }
       &:disabled label {
-        color: colors.$white-weakest;
+        color: colors.$black-weakest;
       }
     }
   }
@@ -36,7 +36,7 @@ window.background.chromium {
     background: colors.$surface-strongest;
 
     label {
-      color: colors.$white-moderate;
+      color: colors.$black-moderate;
     }
 
     // this is a workaround to position titlebuttons to the very right
@@ -47,24 +47,24 @@ window.background.chromium {
 
   scrollbar {
     button {
-      background: colors.$white-weakest;
-      color: colors.$white-strong;
+      background: colors.$black-weakest;
+      color: colors.$black-strong;
     }
 
     trough {
       background: transparent;
     }
     slider {
-      background: colors.$white-weakest;
+      background: colors.$black-weakest;
     }
     junction {
-      background: colors.$white-weakest;
+      background: colors.$black-weakest;
     }
   }
 
   // address bar
   textview {
     background-color: colors.$surface-strong;
-    color: colors.$white-strong;
+    color: colors.$black-strong;
   }
 }

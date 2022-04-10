@@ -4,18 +4,19 @@
 
 button {
   transition: background-color 100ms ease-in;
-  background: colors.$white-weakest;
+  background: colors.$black-weakest;
+  color: colors.$black-strong;
   padding: config.$spacing-medium;
   border-radius: config.$radius;
 
-  &:hover:not(:active) { background: colors.$white-weak; }
+  &:hover:not(:active) { background: colors.$black-weak; }
   &:disabled { opacity: config.$disabled-opacity; }
 
   &:checked, &.suggested-action {
-    background: color.change(colors.$purple-normal, $alpha: config.$tint-medium);
-    color: colors.$white-strong;
+    background: color.change(colors.$accent-normal, $alpha: config.$tint-medium);
+    color: colors.$black-strong;
     &:hover:not(:active) {
-      background: color.change(colors.$purple-light, $alpha: config.$tint-medium);
+      background: color.change(colors.$accent-light, $alpha: config.$tint-medium);
     }
   }
 
@@ -25,7 +26,7 @@ button {
 
   &.destructive-action {
     background: color.change(colors.$red-normal, $alpha: config.$tint-medium);
-    color: colors.$white-strongest;
+    color: colors.$black-strongest;
     &:hover:not(:active) {
       background: color.change(colors.$red-light, $alpha: config.$tint-medium);
     }
@@ -39,10 +40,10 @@ button {
   &.flat {
     background: transparent;
     &:hover {
-      background: colors.$white-weakest;
+      background: colors.$black-weakest;
     }
     &:active, &:checked {
-      background: colors.$white-weak;
+      background: colors.$black-weak;
     }
   }
 

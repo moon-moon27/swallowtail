@@ -3,12 +3,12 @@
 
 list {
   background: colors.$surface-strongest;
-
+  color: colors.$black-strong;
   row {
     background: colors.$surface-strong;
     padding: config.$spacing-medium;
-    &:hover {
-      background: colors.$surface-moderate;
+    &:hover,&:selected {
+      background: colors.$accent-light;
     }
   }
 

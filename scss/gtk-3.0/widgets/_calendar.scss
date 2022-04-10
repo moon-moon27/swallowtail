@@ -5,10 +5,10 @@ calendar {
 
   &.button {
     background: colors.$surface-moderate;
-    color: colors.$white-moderate;
+    color: colors.$black-moderate;
 
-    &:hover { color: colors.$white-strong; }
-    &:disabled { color: colors.$white-weakest; }
+    &:hover { color: colors.$black-strong; }
+    &:disabled { color: colors.$black-weakest; }
   }
 
   &.header {
@@ -16,16 +16,16 @@ calendar {
   }
 
   &.highlight {
-    color: colors.$white-moderate;
+    color: colors.$black-moderate;
   }
 
   &:selected {
-    color: colors.$white-strongest;
+    color: colors.$black-strongest;
     border-radius: 0.5em;
     background: colors.$accent-primary;
   }
 
   &:indeterminate {
-    color: colors.$white-weak;
+    color: colors.$black-weak;
   }
 }

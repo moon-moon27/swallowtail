@@ -3,10 +3,11 @@
 
 toolbar, .toolbar {
   background: colors.$surface-strong;
+  color: colors.$black-strong;
   padding: config.$spacing-medium;
 
   &.osd {
-    background: colors.$white-weakest;
+    background: colors.$black-weakest;
     padding: config.$spacing-medium;
   }
 }

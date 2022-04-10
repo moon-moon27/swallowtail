@@ -7,8 +7,8 @@ scrollbar {
   slider {
     padding: 0.2em;
     border-radius: 1em;
-    background: colors.$white-weakest;
-    &:hover { background: colors.$white-weak;}
+    background: colors.$black-weakest;
+    &:hover { background: colors.$black-weak;}
     &:active { background: colors.$accent-primary; }
   }
 }

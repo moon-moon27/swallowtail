@@ -10,11 +10,11 @@ placessidebar {
 
     row {
       &:hover {
-        background: colors.$white-weakest;
+        background: colors.$black-weakest;
       }
 
       &:active {
-        background: colors.$white-weak;
+        background: colors.$black-weak;
       }
 
       &:selected {

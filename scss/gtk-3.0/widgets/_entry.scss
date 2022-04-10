@@ -5,8 +5,8 @@
 entry {
   padding: calc(config.$spacing-medium - config.$border-size);
   border-radius: config.$radius;
-  border: config.$border-size solid colors.$white-weakest;
-  background: colors.$white-weakest;
+  border: config.$border-size solid colors.$black-weakest;
+  background: colors.$black-weakest;
   background-clip: padding-box;
 
   &:focus {
@@ -27,7 +27,7 @@ entry {
   }
 
   selection {
-    color: colors.$white-strong;
+    color: colors.$black-strong;
     background: color.change(colors.$accent-primary, $alpha: config.$tint-medium);
   }
 

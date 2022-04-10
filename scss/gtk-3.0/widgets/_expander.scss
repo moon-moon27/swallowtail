@@ -3,7 +3,7 @@
 
 expander {
   title {
-    color: colors.$white-moderate;
+    color: colors.$black-moderate;
     padding: config.$spacing-medium;
 
     arrow {
@@ -14,10 +14,10 @@ expander {
 
       &:checked {
         -gtk-icon-source: -gtk-icontheme("go-down-symbolic");
-        color: colors.$white-strong;
+        color: colors.$black-strong;
         
         & + label {
-          color: colors.$white-strong;
+          color: colors.$black-strong;
         }
       }
     }

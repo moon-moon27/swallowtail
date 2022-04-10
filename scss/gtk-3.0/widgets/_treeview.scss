@@ -11,16 +11,16 @@ treeview {
   -GtkTreeView-horizontal-separator: 12;
   -GtkTreeView-vertical-separator: 12;
 
-  border-left-color: colors.$white-weakest; // TODO: check if there is going to be a new way to define tree-lines
-  border-top-color: colors.$white-weakest; // TODO: check if there is going to be a new way to define column-lines
+  border-left-color: colors.$black-weakest; // TODO: check if there is going to be a new way to define tree-lines
+  border-top-color: colors.$black-weakest; // TODO: check if there is going to be a new way to define column-lines
 
   &:hover {
-    background: colors.$white-weakest;
+    background: colors.$black-weakest;
   }
 
   &:selected {
     background: color.change(colors.$accent-primary, $alpha: config.$tint-medium);
-    color: colors.$white-strongest;
+    color: colors.$black-strongest;
   }
 
   header { 
@@ -28,16 +28,16 @@ treeview {
       padding: config.$spacing-medium;
       background: colors.$surface-strong;
       border-radius: 0;
-      color: colors.$white-moderate;
+      color: colors.$black-moderate;
 
       &:hover:not(:active) {
-        color: colors.$white-strong;
+        color: colors.$black-strong;
         background: colors.$surface-strong;
       }
 
       &:not(:last-child) {
         // TODO: check if there is a way to thicken threeview borders (other than this one)
-        border-right: 1px solid colors.$white-weakest;
+        border-right: 1px solid colors.$black-weakest;
       }
     }
   }

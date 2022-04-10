@@ -14,7 +14,7 @@ window.nautilus-window {
   // this is the floating bar usually shown at the bottom right of nautilus when elements are selected
   .floating-bar {
     background: colors.$surface-strong;
-    color: colors.$white-strong;
+    color: colors.$black-strong;
     padding: config.$spacing-small;
 
     &.bottom.left {
@@ -26,13 +26,13 @@ window.nautilus-window {
   }
 
   .nautilus-path-bar {
-    background: colors.$white-weakest;
+    background: colors.$black-weakest;
       border-radius: config.$radius;
 
     > button {
       background: transparent;
       &:hover {
-        background: colors.$white-weakest;
+        background: colors.$black-weakest;
       }
     }
 
@@ -42,12 +42,12 @@ window.nautilus-window {
         &:hover:not(.current-dir) {
           background: transparent;
           label {
-            color: colors.$white-moderate;
+            color: colors.$black-moderate;
           }
         }
       }
       .dim-label {
-        color: colors.$white-weak;
+        color: colors.$black-weak;
         opacity: 1;
       }
     }

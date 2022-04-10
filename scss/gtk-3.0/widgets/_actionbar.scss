@@ -4,5 +4,6 @@
 actionbar {
   padding: config.$spacing-medium;
   background: colors.$surface-strong;
-  border-top: 1px solid colors.$white-weakest;
+  color: colors.$black-strong;
+  border-top: 1px solid colors.$black-weakest;
 }
