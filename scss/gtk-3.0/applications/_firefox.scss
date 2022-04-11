@@ -5,7 +5,7 @@
   // firefox somehow adjusts this color, the minimum color is #262626
   // estimating that firefox adds 15% lightness on top, which is close enough
   // TODO: check algorithm to replace estimate with
-  background: color.adjust(colors.$surface-weak, $lightness: - 15%);
+  background: colors.$surface-weak;
 
   // bar that contains inactive tabs
   // TODO: find out if the gtk headerbar (the one with decorations) can be themed as well
