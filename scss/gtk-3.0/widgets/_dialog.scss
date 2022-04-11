@@ -3,6 +3,7 @@
 
 dialog, messagedialog {
   background: colors.$surface-strong;
+  color: colors.$black-strong;
 
   .dialog-action-box {
     background: colors.$surface-moderate;
@@ -29,4 +30,13 @@ dialog, messagedialog {
       background: colors.$surface-strongest;
     }
   }
+  button {
+      margin: 0em 0.3em 0.3em 0.3em;
+      border: none;
+      background: colors.$black-weakest;
+      transition: background 170ms ease-out;
+        &:hover:not(:active) {
+          background: colors.$black-weak;
+      }
+   }
 }

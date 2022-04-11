@@ -1,9 +1,10 @@
 @use '../colors';
 
 overlay {
-		revealer {
-						box {
-								background: colors.$surface-weakest;
-								padding: 0.3em 0.1em 0.3em 0.3em;
-							}}
+	revealer {
+		box {
+			background: colors.$surface-weakest;
+			padding: 0.3em 0.1em 0.3em 0.3em;
+	}
+ }
 }
