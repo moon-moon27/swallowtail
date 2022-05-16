@@ -10,7 +10,7 @@ button {
   border-radius: config.$radius;
 
   &:hover:not(:active) { background: colors.$black-weak; }
-  &:disabled { opacity: config.$disabled-opacity; }
+  &:disabled { opacity: config.$disabled-button-opacity; }
 
   &:checked, &.suggested-action {
     background: color.change(colors.$accent-normal, $alpha: config.$tint-medium);

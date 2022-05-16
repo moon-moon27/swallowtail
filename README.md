@@ -15,7 +15,7 @@ sudo make install
 ```
 Install its npm dependencies:
 ```bash
-cd ~/.local/share/themes/phocus
+cd ~/.local/share/themes/swallowtail
 npm install
 ```
 
