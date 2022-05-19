@@ -9,5 +9,6 @@ toolbar, .toolbar {
   &.osd {
     background: colors.$black-weakest;
     padding: config.$spacing-medium;
+    border-radius: config.$radius;
   }
 }

@@ -47,4 +47,3 @@ npm run watch_and_reload
 ```
 ## Preview:
 ![ "example image" ](/assets/example.png)
-
