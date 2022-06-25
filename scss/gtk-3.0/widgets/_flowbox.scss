@@ -1,0 +1,10 @@
+@use "../colors";
+
+flowbox {
+  flowboxchild {
+      &:selected {
+       box-shadow: 0.2em 0.2em 0.2em colors.$accent-light;
+       border: 0.2em solid transparent;
+    }
+  }
+}

@@ -3,8 +3,8 @@
 radio {
   -gtk-icon-source: -gtk-recolor(url('../assets/symbolic/radio.symbolic.png'));
   -gtk-icon-transform: scale(0);
-  color: colors.$black-strongest;
-  border: 0.2em solid colors.$black-weakest;
+  color: colors.$black-strong;
+  border: 0.2em solid colors.$black-weak;
   border-radius: 100%;
   padding: 0.1em;
   min-width: 0.6em;

@@ -3,8 +3,19 @@
 
 menu {
   background: colors.$surface-weak;
+  border-radius: 0.25em;
+  border: 0.2em solid colors.$accent-normal;
+  padding: 0.25em;
   menuitem {
     padding: config.$spacing-small;
+    check, radio {
+      &:first-child {
+      margin-right: 0.5em;
+      }
+      &:last-child {
+      margin-left: 0.5em;
+    }
+  }
     &:hover {
       background: colors.$green-light;
     }
