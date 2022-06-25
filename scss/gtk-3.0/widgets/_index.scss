@@ -18,6 +18,7 @@
 @use "menu";
 @use "menubar";
 @use "notebook";
+@use "overlay";
 @use "overshoot";
 @use "paned";
 @use "pathbar";
@@ -38,6 +39,5 @@
 @use "textview";
 @use "toolbar";
 @use "tooltip";
-@use "overlay";
 @use "treeview";
 @use "window";
