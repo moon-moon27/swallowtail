@@ -9,9 +9,10 @@ scale {
       background: colors.$black-weakest;
       slider {
         background: darken(colors.$surface-moderate, 15%);
-        padding: 8px;
-        margin: -6px;
+        padding: 4px;
+        margin: -4px;
         border-radius: 100%;
+        border: 2px solid transparent;
       }
       highlight {
         border-radius: 1em;

@@ -10,7 +10,8 @@
   // bar that contains inactive tabs
   // TODO: find out if the gtk headerbar (the one with decorations) can be themed as well
   menubar {
-    color: colors.$black-weakest;
+    // firefox's library window menubar color !!!
+    color: colors.$black-strong;
     background: colors.$surface-strongest;
   }
 

@@ -31,10 +31,11 @@ button {
       background: color.change(colors.$red-light, $alpha: config.$tint-medium);
     }
   }
-
+// nautilus key shortcuts window 
   &.circular {
     border-radius: 100%;
-    padding: calc(config.$spacing-medium + 0.2em);
+//    padding: calc(config.$spacing-medium + 0.2em);
+    padding: config.$spacing-medium calc(config.$spacing-medium + 0.4em);
   }
 
   &.flat {
