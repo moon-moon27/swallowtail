@@ -9,6 +9,9 @@ list {
     padding: config.$spacing-medium;
     &:hover,&:selected {
       background: colors.$accent-light;
+      colorswatch {
+        border: 0.2em solid colors.$white-strong;
+     }
     }
   }
 

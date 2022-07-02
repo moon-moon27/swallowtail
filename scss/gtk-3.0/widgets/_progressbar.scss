@@ -4,8 +4,14 @@ progressbar {
 
   trough {
     background: colors.$black-weakest;
+    border-radius: 1em;
+    min-height: 0.3em;
+    min-width: 0.3em;
     progress {
       background: colors.$accent-secondary;
+      border-radius: 1em;
+      min-height: 0.3em;
+      min-width: 0.3em;
     }
   }
 }
