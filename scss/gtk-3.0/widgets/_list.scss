@@ -7,11 +7,14 @@ list {
   row {
     background: colors.$surface-strong;
     padding: config.$spacing-medium;
-    &:hover,&:selected {
-      background: colors.$accent-light;
-      colorswatch {
-        border: 0.2em solid colors.$white-strong;
-     }
+    &:hover {
+      background: transparentize(colors.$black-weak, 0.1);
+    /*  colorswatch {
+        border: 0.2em solid colors.$black-strong;
+     }*/
+    }
+    &:selected {
+      background: transparentize(colors.$accent-light, 0.5);
     }
   }
 

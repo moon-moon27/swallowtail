@@ -5,10 +5,21 @@ toolbar, .toolbar {
   background: colors.$surface-strong;
   color: colors.$black-strong;
   padding: config.$spacing-medium;
-
+ 
   &.osd {
-    background: colors.$black-weak;
+    background: colors.$white-strong;
     padding: config.$spacing-medium;
+    border: 2px solid colors.$black-weak;
     border-radius: config.$radius;
   }
+  button, scale {
+    padding: 4px;
+  }
+  scale {
+    trough {
+      highlight {
+        background: colors.$accent-normal;
+      }
+    }
+    } 
 }
