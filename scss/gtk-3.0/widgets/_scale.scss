@@ -8,7 +8,8 @@ scale {
     trough {
       background: colors.$black-weakest;
       slider {
-        background: darken(colors.$surface-moderate, 15%);
+        // background: darken(colors.$surface-moderate, 15%);
+        background: colors.$accent-normal;
         padding: 4px;
         margin: -4px;
         border-radius: 100%;

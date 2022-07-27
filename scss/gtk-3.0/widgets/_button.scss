@@ -20,6 +20,12 @@ button {
     }
   }
 
+  &.link {
+    label {
+      text-decoration: underline colors.$red-normal wavy;
+    }
+  }
+
   &.image-button:not(.text-button) {
     padding: calc(config.$spacing-medium + 0.2em);
   }
@@ -44,12 +50,14 @@ button {
       background: colors.$black-weakest;
     }
     &:active, &:checked {
-      background: colors.$black-weak;
+      // background: colors.$black-weak;
+      background: colors.$accent-light;
     }
   }
 
   label + & {
     margin-left: config.$spacing-medium;
+    margin-right: config.$spacing-medium;
   }
 
   &.small-button {

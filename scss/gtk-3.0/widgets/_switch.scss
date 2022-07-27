@@ -26,7 +26,7 @@ switch {
     background: color.change(colors.$accent-primary, $alpha: config.$tint-weak);
     
     slider {
-      background: colors.$red-light;
+      background: colors.$black-strong;
     }
 
     :nth-child(2) { color: colors.$black-strong; }

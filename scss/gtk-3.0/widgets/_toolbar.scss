@@ -15,6 +15,16 @@ toolbar, .toolbar {
   button, scale {
     padding: 4px;
   }
+  // temporarily fixes? nemo's toolbar button spacing issue
+  button {
+    label {
+      margin-right: 3px;
+      margin-left: 3px;
+    }
+    image {
+      margin: auto;
+    }
+  }
   scale {
     trough {
       highlight {
