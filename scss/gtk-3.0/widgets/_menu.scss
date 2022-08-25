@@ -8,14 +8,6 @@ menu {
   padding: 0.25em;
   menuitem {
     padding: config.$spacing-small;
-    check, radio {
-      &:first-child {
-      margin-right: 0.5em;
-      }
-      &:last-child {
-      margin-left: 0.5em;
-    }
-  }
     &:hover {
       background: colors.$green-light;
     }

@@ -10,6 +10,14 @@
     }
   }
 
+  // removes the ugly margin around statusbar at bottom
+  statusbar {
+    frame {
+      border {
+        margin: -2px;
+      }
+    }
+  }
   .primary-toolbar {
     background: colors.$surface-moderate;
     padding: config.$spacing-small;
@@ -36,8 +44,11 @@
   }
 
   // Removes the annoying separator
-  grid > paned > separator {
+  // grid > paned > separator {
+  grid {
+    separator {
     background-image: none;
+    }
   }
 
   .nemo-window-pane {

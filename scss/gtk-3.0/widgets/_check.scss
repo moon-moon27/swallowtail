@@ -6,6 +6,8 @@ check {
   color: colors.$black-strong;
   border: 0.2em solid colors.$black-weak;
   border-radius: 0.2em;
+  // fixes radio and checkbox margin issue in menu's
+  margin: 0.3em;
   padding: 0.1em;
   min-width: 0.7em;
   min-height: 0.7em;

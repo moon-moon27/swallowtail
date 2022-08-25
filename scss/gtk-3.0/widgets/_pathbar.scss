@@ -3,7 +3,8 @@
 .linked.path-bar {
     button {
       image:not(:only-child) {
-        margin-right: config.$spacing-medium;
+        // fixed margin issue for nemo's pathbar for folders with no folder icon
+         margin-right: calc(config.$spacing-small - 0.1em);
       }
 
       &:not(:first-child) {

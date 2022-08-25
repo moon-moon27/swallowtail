@@ -5,6 +5,10 @@
 headerbar {
   background: colors.$surface-moderate;
   padding: config.$spacing-medium;
+// adding a min. height fixes the headerbar issue in some applications
+&.titlebar {
+  min-height: 40px;
+  }
 
   button.titlebutton {
     padding: calc(config.$spacing-medium + 0.2em);
