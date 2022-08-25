@@ -3,8 +3,8 @@
 
 menu {
   background: colors.$surface-weak;
-  border-radius: 0.25em;
-  border: 0.2em solid colors.$accent-normal;
+  border-radius: config.$spacing-small;
+  // border: 0.2em solid colors.$accent-normal;
   padding: 0.25em;
   menuitem {
     padding: config.$spacing-small;
